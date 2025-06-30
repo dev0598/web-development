@@ -95,7 +95,7 @@ interface ProjectProps {
     subtitle: string;
     description: string;
     image: string;
-    image1: string;
+    // image1: string;
     conclusionTitle: string;
     conclusion: string;
     conclusionPoints?: string[];
@@ -107,7 +107,7 @@ const ProjectSection = ({
     description,
     conclusionTitle,
     image,
-    image1,
+    // image1,
     conclusion,
     conclusionPoints
 }: ProjectProps) => {
