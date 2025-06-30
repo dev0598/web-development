@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    @apply py-24 md:py-32 lg:py-40;
+}
+
+.line {
+    @apply overflow-hidden;
+}
+
+.word {
+    @apply translate-y-full;
+}
+
+.button-shine {
+    position: relative;
+    overflow: hidden;
+}
+.button-shine::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.3) 50%,
+            rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(45deg);
+    animation: shine 3s infinite;
+}
+
+/* Keyframes */
+@keyframes shine {
+    0% { left: -120%; }
+    100% { left: 120%; }
+}
+@keyframes flare {
+    0% { left: -150%; }
+    100% { left: 150%; }
+}
+
+/* Shine effect using pseudo-element */
+.shine-hover {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .shine-hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.6) 50%,
+      rgba(255, 255, 255, 0.2) 100%
+    );
+    transform: skewX(-20deg);
+    z-index: 10;
+  }
+  
+  .shine-hover:hover::before {
+    animation: shine 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -75%;
+    }
+    100% {
+      left: 125%;
+    }
+  }
+  

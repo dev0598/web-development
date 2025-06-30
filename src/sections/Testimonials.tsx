@@ -1,0 +1,135 @@
+"use client";
+
+import { FC, useRef, useState, useCallback } from "react";
+import image1 from "@/assets/images/anself indiaai.png";
+import image2 from "@/assets/images/gesia_2.jpg";
+// import image3 from "@/assets/images/placeholder-16-9-26571_1080x675.jpg";
+import { useScroll, motion, useTransform, AnimatePresence } from "motion/react";
+import Testimonial from "@/components/Testimonial";
+
+const testimonials = [
+    {
+        name: "IndiaAI Mission, Government of India",
+        company: "New Delhi",
+        role: "March 2025",
+        quote:
+            "Selected as Top 30 AI startups in India",
+        image: image1,
+        imagePositionY: 0.2,
+    },
+    {
+        name: "DMC, GESIA IT Association",
+        company: "Ahmedabad",
+        role: "December 2024",
+        quote:
+            "Winner at DMC Pitchathon organised by GESIA IT Association",
+        image: image2,
+        imagePositionY: 0.2,
+    },
+    {
+        name: "Emily Watson",
+        company: "Studio Minimal",
+        role: "Creative Director",
+        quote:
+            "The collaborative process was amazing. Alex brought lots of fresh perspectives and innovative solutions.",
+        image: image1,
+        imagePositionY: 0.2,
+    },
+];
+
+const Testimonials: FC = () => {
+    const titleRef = useRef(null);
+    const { scrollYProgress } = useScroll({
+        target: titleRef,
+        offset: ['start end', 'end start'],
+    });
+
+    const transformTop = useTransform(scrollYProgress, [0, 1], ['0%', '15%']);
+    const transformBottom = useTransform(scrollYProgress, [0, 1], ['0%', '-15%']);
+    const [testimonialIndex, setTestimonialIndex] = useState(0);
+    const [isChanging, setIsChanging] = useState(false);
+
+    const handleClickPrev = useCallback(() => {
+        if (isChanging) return; // Prevent multiple clicks during animation
+
+        setIsChanging(true);
+        setTestimonialIndex(curr => {
+            if (curr === 0) {
+                return testimonials.length - 1;
+            }
+            return curr - 1;
+        });
+
+        // Reset changing state after animation completes
+        setTimeout(() => setIsChanging(false), 600);
+    }, [isChanging]);
+
+    const handleClickNext = useCallback(() => {
+        if (isChanging) return; // Prevent multiple clicks during animation
+
+        setIsChanging(true);
+        setTestimonialIndex(curr => {
+            if (curr === testimonials.length - 1) return 0;
+            return curr + 1;
+        });
+
+        // Reset changing state after animation completes
+        setTimeout(() => setIsChanging(false), 600);
+    }, [isChanging]);
+
+    return (
+        <section className="section" id="testimonials">
+            <h2 className="text-4xl md:text-7xl lg:text-8xl flex flex-col overflow-hidden tracking-tighter" ref={titleRef}>
+                <motion.span className="whitespace-nowrap"
+                             style={{
+                                 x: transformTop,
+                             }}
+                >
+                    Notable Recognitions by Institutes for our work</motion.span>
+                <motion.span className="whitespace-nowrap self-end text-red-orange-500"
+                             style={{
+                                 x: transformBottom,
+                             }}
+                >
+                    Notable Recognitions by Institutes for our work</motion.span>
+            </h2>
+            <div className="container lg:items-center lg:justify-center">
+                <div className="mt-20 w-full">
+                    <AnimatePresence mode="wait" initial={false}>
+                        <Testimonial
+                            key={`${testimonials[testimonialIndex].name}-${testimonialIndex}`} // Better key for re-renders
+                            name={testimonials[testimonialIndex].name}
+                            company={testimonials[testimonialIndex].company}
+                            role={testimonials[testimonialIndex].role}
+                            quote={testimonials[testimonialIndex].quote}
+                            image={testimonials[testimonialIndex].image}
+                            imagePositionY={testimonials[testimonialIndex].imagePositionY}
+                        />
+                    </AnimatePresence>
+                </div>
+                <div className="flex gap-4 md:gap-6 mt-8 lg:mt-10 justify-center">
+                    <button
+                        className={`border border-stone-400 size-11 inline-flex items-center justify-center rounded-full hover:bg-red-orange-500 hover:text-white hover:border-red-orange-500 transition-all duration-300 ${isChanging ? 'opacity-50 cursor-not-allowed' : ''}`}
+                        onClick={handleClickPrev}
+                        disabled={isChanging}
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>
+                    </button>
+                    <button
+                        className={`border border-stone-400 size-11 inline-flex items-center justify-center rounded-full hover:bg-red-orange-500 hover:text-white hover:border-red-orange-500 transition-all duration-300 ${isChanging ? 'opacity-50 cursor-not-allowed' : ''}`}
+                        onClick={handleClickNext}
+                        disabled={isChanging}
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Testimonials;
