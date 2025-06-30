@@ -67,7 +67,7 @@ export const worksData: Work[] = [
     {
         id: "5",
         title: "KneeScopeAI - OA Acoustical Analysis",
-        subtitle: "Smart, Portable Eye Exams — From Clinic to Community",
+        subtitle: "Hear the crackle of your knee for a better future",
         description: "In eye care, clarity and documentation make all the difference. Yet, in countless clinics worldwide, slit lamps — the gold standard for examining the eye’s front and back — remain analog, unconnected, and dependent on handwritten notes.\n" +
             "SLIT PAL changes this. Compact and universally compatible, SLIT PAL is a smart camera system that instantly digitizes any slit lamp, transforming routine eye exams into high-quality images and videos, ready to share or analyze in real-time.\n" +
             "With its precision alignment mechanism and magnetic locking design, SLIT PAL ensures perfect optical alignment every time — no complex adjustments, no bulky attachments. Just snap it on, plug it in, and start capturing clear, detailed images of the anterior and posterior eye segments.\n" +
