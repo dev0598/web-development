@@ -1,15 +1,18 @@
 "use client";
 
 import { FC, useRef, useState, useCallback } from "react";
-import image1 from "@/assets/images/anself indiaai.png";
+import image1 from "@/assets/images/anself indiaai.jpg";
 import image2 from "@/assets/images/gesia_2.jpg";
-// import image3 from "@/assets/images/placeholder-16-9-26571_1080x675.jpg";
+import image3 from "@/assets/images/guj_cm.jpg";
+import image4 from "@/assets/images/techcelerate.jpg";
+import image5 from "@/assets/images/iimb1.jpg";
+import image6 from "@/assets/images/esc_stpi.jpg";
 import { useScroll, motion, useTransform, AnimatePresence } from "motion/react";
 import Testimonial from "@/components/Testimonial";
 
 const testimonials = [
     {
-        name: "IndiaAI Mission, Government of India",
+        name: "IndiaAI Mission, Ministry of Electronics and IT, Government of India",
         company: "New Delhi",
         role: "March 2025",
         quote:
@@ -20,19 +23,46 @@ const testimonials = [
     {
         name: "DMC, GESIA IT Association",
         company: "Ahmedabad",
-        role: "December 2024",
+        role: "October 2024",
         quote:
-            "Winner at DMC Pitchathon organised by GESIA IT Association",
+            "Winner at Digital Management Conclave, Pitchathon organised by GESIA IT Association",
         image: image2,
         imagePositionY: 0.2,
     },
     {
-        name: "Emily Watson",
-        company: "Studio Minimal",
-        role: "Creative Director",
+        name: "AIC GUSEC Startup Demo Day",
+        company: "Ahmedabad",
+        role: "May 2022",
         quote:
-            "The collaborative process was amazing. Alex brought lots of fresh perspectives and innovative solutions.",
-        image: image1,
+            "With Chief Minister of Gujarat Shri Bhupendra Patel and Former Education Minister Shri Jitu Vaghani",
+        image: image3,
+        imagePositionY: 0.2,
+    },
+    {
+        name: "GUSEC and TiE Delhi-NCR ",
+        company: "Delhi",
+        role: "December 2022",
+        quote:
+            "Winner at a National Level Competition - GUSEC Techcelerate, powered by NSTEDB, DST, Govt. of India",
+        image: image4,
+        imagePositionY: 0.2,
+    },
+    {
+        name: "IIM Bangalore, NSRCEL",
+        company: "Bangalore",
+        role: "May-January 2025",
+        quote:
+            "Top 30 Healthcare startup at NSRCEL IIMB under their LaunchPad and HealthCare Incubation Programs",
+        image: image5,
+        imagePositionY: 0.2,
+    },
+    {
+        name: "ESC STPI",
+        company: "Delhi",
+        role: "October 2022",
+        quote:
+            "National Startup Initiative 2022, Building the next Unicorn",
+        image: image6,
         imagePositionY: 0.2,
     },
 ];

@@ -7,27 +7,27 @@ import {twMerge} from "tailwind-merge";
 const faqs = [
     {
         id: 1,
-        question: "How long does it take to build a website?",
+        question: "How can Ocellux aid rural diabetic screening?",
         answer:
-            "It depends on the complexity of the website and the scope of the project.",
+            "Ocellux helps screen diabetic patients in rural areas using a portable, smartphone-based fundus camera. It captures retinal images and uses AI for instant analysis, enabling local health workers to detect early signs of diabetic retinopathy and refer patients before vision loss occurs without needing an ophthalmologist on-site.",
     },
     {
         id: 2,
-        question: "What is your development process like?",
+        question: "How can SLIT PAL improve pediatric eye exams?",
         answer:
-            "I follow a hands-on approach starting with project planning, building out the core features, and regular check-ins to make sure everything matches your needs.",
+            "SLIT PAL, a portable slit lamp camera adapter, has made it easier for pediatric ophthalmologists to document and review anterior segment images. Its compatibility with existing slit lamps and smartphones allows for better diagnostics, education, and follow-up, especially for young or non-cooperative patients.",
     },
     {
         id: 3,
-        question: "Do you work with international clients?",
+        question: "How can DigiMach enable remote pathology?",
         answer:
-            "Yes, I work with clients globally and can accommodate different time zones for meetings and communication.",
+            "DigiMach digitizes microscope slides using a plug-and-play camera system, allowing pathologists to view, annotate, and collaborate in real time. This has enabled remote slide reviews, second opinions, and faster diagnostics in pathology labs without high-end digital equipment.",
     },
     {
         id: 4,
-        question: "What industries do you specialize in?",
+        question: "How Thermalook can be used for early cancer detection?",
         answer:
-            "I have experience across various industries including technology, retail, hospitality, and professional services, bringing fresh perspectives to each project.",
+            "Thermalook leverages thermal imaging to detect abnormal heat patterns indicative of early cancer signs. It’s a radiation-free, non-invasive method that has been deployed in screening camps for breast, head-neck, and other cancers, helping in early detection and preventive care.",
     },
 ];
 
@@ -37,7 +37,7 @@ const FAQs: FC = () => {
     return (
         <section className="section" id="faqs">
             <div className="container">
-                <h2 className="text-4xl md:text-7xl lg:text-8xl">FAQs</h2>
+                <h2 className="text-4xl md:text-7xl lg:text-8xl">Case Studies</h2>
                 <div className="mt-10 md:mt-16 lg:mt-20">
                     {faqs.map(({question, answer}, index) => (
                         <div key={question}

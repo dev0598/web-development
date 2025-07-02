@@ -20,7 +20,7 @@ const navItems = [
         href: "#testimonials",
     },
     {
-        label: "FAQs",
+        label: "Case Studies",
         href: "#faqs",
     },
     {

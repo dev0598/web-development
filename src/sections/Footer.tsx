@@ -20,7 +20,7 @@ const navItems = [
   },
   {
     href: '#faqs',
-    label: 'FAQs'
+    label: 'Case Studies'
   },
   {
     href: '#footer',
