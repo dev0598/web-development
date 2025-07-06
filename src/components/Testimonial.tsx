@@ -92,7 +92,7 @@ const Testimonial = (props: {
                 >
                 </motion.div>
                 <Image src={image} alt={name}
-                       className="border border-dotted border-stone-400 rounded-xl size-fit object-cover p-4"
+                       className="border border-dotted border-stone-400 rounded-xl size-fit object-cover"
                        style={{objectPosition: `50% ${imagePositionY * 100}%`}}/>
             </div>
             <blockquote className="md:col-span-2">
