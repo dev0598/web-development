@@ -41,7 +41,7 @@ export const worksData: Work[] = [
             "Beyond cancer, ThermalLook is opening new possibilities in preventive and post-care healthcare. Its applications extend to monitoring inflammation, circulatory disorders, physiotherapy progress, and post-surgical recovery. Researchers and clinicians also benefit from its ability to track thermal changes during drug trials and treatment interventions, giving a new dimension to real-time, data-driven care.\n",
 
         image: "/images/works/img_3.gif",
-        conclusionTitle: "🧠🔍 Conclusion: A New Lens on Preventive Healthcare",
+        conclusionTitle: "🧠🔍 A New Lens on Preventive Healthcare",
         conclusion: "With ThermalLook, we are building a future where early detection is no longer a privilege, but a standard. By combining the sensitivity of thermal imaging with the intelligence of AI, we’re making healthcare more proactive, accessible, and human-centered.\n",
         conclusionPoints: [
             "ThermalLook sees what others miss — and it does so when it matters most. Join us in shaping the future of non-invasive diagnostics, one scan at a time."
@@ -64,20 +64,20 @@ export const worksData: Work[] = [
         ]
     },
     
-    // {
-    //     id: "5",
-    //     title: "KneeScopeAI - OA Acoustical Analysis",
-    //     subtitle: "Hear the crackle of your knee for a better future",
-    //     description: "In eye care, clarity and documentation make all the difference. Yet, in countless clinics worldwide, slit lamps — the gold standard for examining the eye’s front and back — remain analog, unconnected, and dependent on handwritten notes.\n" +
-    //         "SLIT PAL changes this. Compact and universally compatible, SLIT PAL is a smart camera system that instantly digitizes any slit lamp, transforming routine eye exams into high-quality images and videos, ready to share or analyze in real-time.\n" +
-    //         "With its precision alignment mechanism and magnetic locking design, SLIT PAL ensures perfect optical alignment every time — no complex adjustments, no bulky attachments. Just snap it on, plug it in, and start capturing clear, detailed images of the anterior and posterior eye segments.\n" +
-    //         "Designed to work seamlessly with smartphones, laptops, or PCs, SLIT PAL operates in true plug-and-play mode — no drivers, no fuss. From busy clinics to mobile camps, it makes eye documentation effortless, portable, and shareable.\n",
-    //     image: "/images/works/img_1.png",
-    //     conclusionTitle: "Make Every Slit Lamp Smart",
-    //     conclusion: "With SLIT PAL, eye care professionals can document, store, and share examination findings in seconds, improving diagnosis accuracy and patient trust. Whether in a modern hospital or a rural screening camp, SLIT PAL ensures that every slit lamp tells the full story — clearly, digitally, and instantly."
-    //     ,
-    //     conclusionPoints: [
-    //         "Reimagine eye exams with SLIT PAL — your smart companion for slit lamp digitization, anywhere"
-    //     ]
-    // },
+    {
+        id: "5",
+        title: "KneeScopeAI - OA Acoustical Analysis",
+        subtitle: "Hear the crackle of your knee for a better future",
+        description: "In eye care, clarity and documentation make all the difference. Yet, in countless clinics worldwide, slit lamps — the gold standard for examining the eye’s front and back — remain analog, unconnected, and dependent on handwritten notes.\n" +
+            "SLIT PAL changes this. Compact and universally compatible, SLIT PAL is a smart camera system that instantly digitizes any slit lamp, transforming routine eye exams into high-quality images and videos, ready to share or analyze in real-time.\n" +
+            "With its precision alignment mechanism and magnetic locking design, SLIT PAL ensures perfect optical alignment every time — no complex adjustments, no bulky attachments. Just snap it on, plug it in, and start capturing clear, detailed images of the anterior and posterior eye segments.\n" +
+            "Designed to work seamlessly with smartphones, laptops, or PCs, SLIT PAL operates in true plug-and-play mode — no drivers, no fuss. From busy clinics to mobile camps, it makes eye documentation effortless, portable, and shareable.\n",
+        image: "/images/works/img_1.png",
+        conclusionTitle: "Make Every Slit Lamp Smart",
+        conclusion: "With SLIT PAL, eye care professionals can document, store, and share examination findings in seconds, improving diagnosis accuracy and patient trust. Whether in a modern hospital or a rural screening camp, SLIT PAL ensures that every slit lamp tells the full story — clearly, digitally, and instantly."
+        ,
+        conclusionPoints: [
+            "Reimagine eye exams with SLIT PAL — your smart companion for slit lamp digitization, anywhere"
+        ]
+    },
 ]
