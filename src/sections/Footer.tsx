@@ -61,7 +61,7 @@ const Footer: FC = () => {
           <div className="grid md:grid-cols-3 md:items-center">
             <div className="md:col-span-2">
               <h2 className="text-4xl md:text-7xl lg:text-8xl mt-8 font-extralight" ref={scope}>
-                Enough talk. Let&apos;s build the future of preventive healthcare together.
+                Let&apos;s build the future of preventive healthcare together.
               </h2>
               <a
                 href="mailto:anselfdynamics@gmail.com?subject=Inquiry%20from%20website&body=Hi%2C%20I%20am%20reaching%20out%20to%20you%20via%20your%20webpage."

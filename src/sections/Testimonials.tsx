@@ -137,25 +137,41 @@ const Testimonials: FC = () => {
                         />
                     </AnimatePresence>
                 </div>
-                <div className="flex gap-4 md:gap-6 mt-8 lg:mt-10 justify-center">
-                    <button
-                        className={`border border-stone-400 size-11 inline-flex items-center justify-center rounded-full hover:bg-red-orange-500 hover:text-white hover:border-red-orange-500 transition-all duration-300 ${isChanging ? 'opacity-50 cursor-not-allowed' : ''}`}
-                        onClick={handleClickPrev}
-                        disabled={isChanging}
-                    >
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+
+                <div className="flex justify-center items-center gap-x-10 mt-8 lg:mt-10">
+                    {/* Previous Button + Label */}
+                    <div className="flex flex-col items-center space-y-2 group">
+                        <button
+                            className={`border border-stone-300 text-stone-500 size-11 inline-flex items-center justify-center rounded-full transition-all duration-300 
+                                    group-hover:bg-red-100 group-hover:text-red-600 group-hover:border-red-600 ${isChanging ? 'opacity-50 cursor-not-allowed' : ''}`}
+                            onClick={handleClickPrev}
+                            disabled={isChanging}
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
                         </svg>
-                    </button>
-                    <button
-                        className={`border border-stone-400 size-11 inline-flex items-center justify-center rounded-full hover:bg-red-orange-500 hover:text-white hover:border-red-orange-500 transition-all duration-300 ${isChanging ? 'opacity-50 cursor-not-allowed' : ''}`}
-                        onClick={handleClickNext}
-                        disabled={isChanging}
-                    >
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                        </button>
+                            <span className="text-sm text-stone-400 group-hover:text-stone-800 transition-colors duration-300 font-medium">
+                                Previous
+                            </span>
+                    </div>
+
+                    {/* Next Button + Label */}
+                    <div className="flex flex-col items-center space-y-2 group">
+                        <button
+                            className={`border border-stone-300 text-stone-500 size-11 inline-flex items-center justify-center rounded-full transition-all duration-300 
+                                    group-hover:bg-red-100 group-hover:text-red-600 group-hover:border-red-600 ${isChanging ? 'opacity-50 cursor-not-allowed' : ''}`}
+                            onClick={handleClickNext}
+                            disabled={isChanging}
+                        >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
-                    </button>
+                        </button>
+                        <span className="text-sm text-stone-400 group-hover:text-stone-800 transition-colors duration-300 font-medium">
+                            Next
+                        </span>
+                    </div>
                 </div>
             </div>
         </section>

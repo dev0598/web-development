@@ -5,24 +5,24 @@ export const worksData: Work[] = [
         id: "1",
         title: "Ocellux: Eye Screening Anywhere",
         subtitle: "Bringing Advanced Eye Care to Every Corner, One Scan at a Time",
-        description: "Every five seconds, someone, somewhere loses their vision to preventable eye diseases. Often, all they needed was a simple screening at the right time — but distance, cost, and lack of specialists stand in the way for millions.\n" +
-            "Ocellux is changing that. Our portable, AI-powered retinal imaging system transforms any smartphone into a smart eye clinic — compact enough to fit in a bag, yet powerful enough to detect early signs of diabetic retinopathy, glaucoma, and other vision-threatening conditions.\n" +
-            "Designed, developed, and made in India, Ocellux enables healthcare workers and clinics to take quality eye care directly to villages, schools, and community camps. No bulky machines. No complex setup. Just plug, scan, and save sight — anytime, anywhere.\n",
+        description: "Every five seconds, someone, somewhere loses their vision to preventable eye diseases. Often, all they needed was a simple screening at the right time but distance, cost, and lack of specialists stand in the way for millions.\n" +
+            "Ocellux is changing that. Our portable, AI-powered retinal imaging system transforms any smartphone into a smart eye clinic compact enough to fit in a bag, yet powerful enough to detect early signs of diabetic retinopathy, glaucoma, and other vision-threatening conditions.\n" +
+            "Designed, developed, and made in India, Ocellux enables healthcare workers and clinics to take quality eye care directly to villages, schools, and community camps. No bulky machines. No complex setup. Just plug, scan, and save sight, anytime, anywhere.\n",
         image: "/images/works/img_2.png",
         conclusionTitle: "A Clear Vision for a Brighter Future",
         conclusion: "At Ocellux, we believe that sight-saving eye exams should never be out of reach. By combining innovative optics, AI analysis, and portable design, we empower communities with timely screening and faster referrals — because everyone deserves the chance to see the world clearly.\n",
         conclusionPoints: [
-            "Join us in our mission to prevent avoidable blindness — one scan at a time."
+            "Join us in our mission to prevent avoidable blindness one scan at a time."
         ]
     },
     {
         id: "2",
         title: "SLIT PAL: Digitize Any Slit Lamp",
         subtitle: "Smart, Portable Eye Exams — From Clinic to Community",
-        description: "In eye care, clarity and documentation make all the difference. Yet, in countless clinics worldwide, slit lamps — the gold standard for examining the eye’s front and back — remain analog, unconnected, and dependent on handwritten notes.\n" +
+        description: "In eye care, clarity and documentation make all the difference. Yet, in countless clinics worldwide, slit lamps — the gold standard for examining the eye’s front and back remain analog, unconnected, and dependent on handwritten notes.\n" +
             "SLIT PAL changes this. Compact and universally compatible, SLIT PAL is a smart camera system that instantly digitizes any slit lamp, transforming routine eye exams into high-quality images and videos, ready to share or analyze in real-time.\n" +
-            "With its precision alignment mechanism and magnetic locking design, SLIT PAL ensures perfect optical alignment every time — no complex adjustments, no bulky attachments. Just snap it on, plug it in, and start capturing clear, detailed images of the anterior and posterior eye segments.\n" +
-            "Designed to work seamlessly with smartphones, laptops, or PCs, SLIT PAL operates in true plug-and-play mode — no drivers, no fuss. From busy clinics to mobile camps, it makes eye documentation effortless, portable, and shareable.\n",
+            "With its precision alignment mechanism and magnetic locking design, SLIT PAL ensures perfect optical alignment every time no complex adjustments, no bulky attachments. Just snap it on, plug it in, and start capturing clear, detailed images of the anterior and posterior eye segments.\n" +
+            "Designed to work seamlessly with smartphones, laptops, or PCs, SLIT PAL operates in true plug-and-play mode, no drivers, no fuss. From busy clinics to mobile camps, it makes eye documentation effortless, portable, and shareable.\n",
         image: "/images/works/img_1.png",
         conclusionTitle: "Make Every Slit Lamp Smart",
         conclusion: "With SLIT PAL, eye care professionals can document, store, and share examination findings in seconds, improving diagnosis accuracy and patient trust. Whether in a modern hospital or a rural screening camp, SLIT PAL ensures that every slit lamp tells the full story — clearly, digitally, and instantly."
@@ -52,8 +52,8 @@ export const worksData: Work[] = [
         title: "DigiMach – AI-Based Microscopy",
         subtitle: "Digitizing Diagnostics, One Slide at a Time",
         description: "Microscopes are essential in diagnostics, but analog workflows limit speed and access. DigiMach solves this by digitizing any microscope using our compact DigiMach 1 camera and real-time AI software.\n" +
-            "With plug-and-play connectivity, high-resolution imaging, and AI-powered analysis, DigiMach enables instant screening, annotation, and reporting — even remotely.\n" +
-            "Designed for labs, clinics, and field use, DigiMach simplifies microscopy and brings intelligent diagnostics to the point of care — anywhere, anytime.\n",
+            "With plug-and-play connectivity, high-resolution imaging, and AI-powered analysis, DigiMach enables instant screening, annotation, and reporting even remotely.\n" +
+            "Designed for labs, clinics, and field use, DigiMach simplifies microscopy and brings intelligent diagnostics to the point of care anywhere, anytime.\n",
         image: "/images/works/img_41.jpeg",
         conclusionTitle: "Smarter Microscopy for Smarter Care",
         conclusion: "With DigiMach, we’re making advanced diagnostics accessible, efficient, and intelligent — from urban hospitals to remote labs.",
@@ -64,20 +64,19 @@ export const worksData: Work[] = [
         ]
     },
     
-    // {
-    //     id: "5",
-    //     title: "KneeScopeAI - OA Acoustical Analysis",
-    //     subtitle: "Hear the crackle of your knee for a better future",
-    //     description: "In eye care, clarity and documentation make all the difference. Yet, in countless clinics worldwide, slit lamps — the gold standard for examining the eye’s front and back — remain analog, unconnected, and dependent on handwritten notes.\n" +
-    //         "SLIT PAL changes this. Compact and universally compatible, SLIT PAL is a smart camera system that instantly digitizes any slit lamp, transforming routine eye exams into high-quality images and videos, ready to share or analyze in real-time.\n" +
-    //         "With its precision alignment mechanism and magnetic locking design, SLIT PAL ensures perfect optical alignment every time — no complex adjustments, no bulky attachments. Just snap it on, plug it in, and start capturing clear, detailed images of the anterior and posterior eye segments.\n" +
-    //         "Designed to work seamlessly with smartphones, laptops, or PCs, SLIT PAL operates in true plug-and-play mode — no drivers, no fuss. From busy clinics to mobile camps, it makes eye documentation effortless, portable, and shareable.\n",
-    //     image: "/images/works/img_1.png",
-    //     conclusionTitle: "Make Every Slit Lamp Smart",
-    //     conclusion: "With SLIT PAL, eye care professionals can document, store, and share examination findings in seconds, improving diagnosis accuracy and patient trust. Whether in a modern hospital or a rural screening camp, SLIT PAL ensures that every slit lamp tells the full story — clearly, digitally, and instantly."
-    //     ,
-    //     conclusionPoints: [
-    //         "Reimagine eye exams with SLIT PAL — your smart companion for slit lamp digitization, anywhere"
-    //     ]
-    // },
+    {
+        id: "5",
+        title: "OcelluxKC: Portable Corneal Topographer",
+        subtitle: "See the Curve, Stop the Surge",
+        description:  "Early signs of keratoconus and corneal disorders are often missed, not due to lack of care, but lack of accessible diagnostics. Ocellux-KC brings powerful corneal topography into the palm of your hand, making early detection possible anywhere, anytime.\n" +
+        "Built for mobility and precision, Ocellux-KC is a smartphone-based corneal topographer that maps the curvature of the cornea using advanced image processing algorithms. Its compact form and AI-enhanced analysis bring accurate K readings and surface maps to settings that lack traditional bulky equipment.\n" +
+        "Using ring-reflection (Placido-based) imaging, Ocellux-KC generates topographic heat maps, astigmatism detection, and indices like keratometry and corneal irregularity - vital for diagnosing keratoconus early.\n" +
+        "Whether in rural clinics, eye camps, or point-of-care screenings, Ocellux-KC empowers clinicians with a rapid, non-invasive, and affordable way to identify and track corneal changes before they become sight-threatening.",
+        image: "/images/works/img_5.jpg",
+        conclusionTitle: "Corneal Screening, Reimagined",
+        conclusion: "With Ocellux-KC, you're not just seeing the surface you're understanding it. Empower your practice with early keratoconus detection, streamlined diagnostics, and AI-backed insights, all from a device that fits in your pocket.",
+        conclusionPoints: [
+            "Turn any clinic into a corneal care center with Ocellux-KC which is portable, precise, and powerful."
+        ]
+    },
 ]
