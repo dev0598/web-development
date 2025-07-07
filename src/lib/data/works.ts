@@ -8,7 +8,7 @@ export const worksData: Work[] = [
         description: "Every five seconds, someone, somewhere loses their vision to preventable eye diseases. Often, all they needed was a simple screening at the right time but distance, cost, and lack of specialists stand in the way for millions.\n" +
             "Ocellux is changing that. Our portable, AI-powered retinal imaging system transforms any smartphone into a smart eye clinic compact enough to fit in a bag, yet powerful enough to detect early signs of diabetic retinopathy, glaucoma, and other vision-threatening conditions.\n" +
             "Designed, developed, and made in India, Ocellux enables healthcare workers and clinics to take quality eye care directly to villages, schools, and community camps. No bulky machines. No complex setup. Just plug, scan, and save sight, anytime, anywhere.\n",
-        image: "/images/works/img_2.png",
+        image: "/images/works/img_14.png",
         conclusionTitle: "A Clear Vision for a Brighter Future",
         conclusion: "At Ocellux, we believe that sight-saving eye exams should never be out of reach. By combining innovative optics, AI analysis, and portable design, we empower communities with timely screening and faster referrals — because everyone deserves the chance to see the world clearly.\n",
         conclusionPoints: [
