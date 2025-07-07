@@ -25,6 +25,22 @@ export const brandsList = [
     },
     {
         id: 4,
+        src: "/brands/dst_nidhi.png",
+        alt: "NIDHI PRAYAS - Department of Science and Technology",
+        width: 250,
+        height: 200,
+        link:"",
+    },
+    {
+        id: 5,
+        src: "/brands/msh-logo-1.png",
+        alt: "NIDHI PRAYAS - Department of Science and Technology",
+        width: 220,
+        height: 22.081,
+        link:"",
+    },
+    {
+        id: 6,
         src: "/brands/i-hub.png",
         alt: "iHub - A Government of Gujarat Initiative",
         width: 220,
@@ -32,7 +48,7 @@ export const brandsList = [
         link:"",
     },
     {
-        id: 5,
+        id: 7,
         src: "/brands/aic_gusec.png",
         alt: "Atal Innovation Center Gujarat University Startup And Entrepreneurship Council",
         width: 250,
@@ -40,7 +56,7 @@ export const brandsList = [
         link:"",
     },
     {
-        id: 6,
+        id: 8,
         src: "/brands/iiphg-new-logo.png",
         alt: "Indian Institute of Public Health Gandhinagar TBI",
         width: 250,
@@ -48,7 +64,7 @@ export const brandsList = [
         link:"https://iiphgtbi.org/current-incubatees/",
     },
     {
-        id: 6,
+        id: 9,
         src: "/brands/GU-GUSEC.png",
         alt: "Gujarat University Startup And Entrepreneurship Council",
         width: 250,
@@ -56,12 +72,28 @@ export const brandsList = [
         link:"https://www.linkedin.com/posts/devanshparikh8_iiphg-techcelerate-nstedb-activity-7014962461275512832-4LDS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB8M2AcBJ9RCw0gbAPww1RXYo-29Q3rbZzs",
     },
     {
-        id: 7,
+        id: 10,
         src: "/brands/ESC-LOGO-1.png",
         alt: " Electronics and Computer Software Export Promotion Council (ESC)",
         width: 250,
         height: 29.446,
         link:"https://www.linkedin.com/posts/esc-india_stpiindia-buildingthenextunicorn-startups-activity-6989900568748019712-4-o9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB8M2AcBJ9RCw0gbAPww1RXYo-29Q3rbZzs",
+    },
+    {
+        id: 11,
+        src: "/brands/chunauti.jpg",
+        alt: " Electronics and Computer Software Export Promotion Council (ESC)",
+        width: 250,
+        height: 29.446,
+        link:"#",
+    },
+    {
+        id: 12,
+        src: "/brands/MIT-COVID-19-Challenge.svg",
+        alt: " Electronics and Computer Software Export Promotion Council (ESC)",
+        width: 250,
+        height: 29.446,
+        link:"https://www.linkedin.com/posts/devanshparikh8_hack4thefuture-activity-6731477832528211968-PWZx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB8M2AcBJ9RCw0gbAPww1RXYo-29Q3rbZzs",
     },
     
 ]

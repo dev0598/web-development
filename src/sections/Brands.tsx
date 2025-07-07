@@ -7,7 +7,7 @@ const Brands = () => {
   return (
     <section className="container py-16">
       <h2 className="text-4xl md:text-7xl lg:text-8xl mb-24 text-left">
-        Our Recognitions
+        Supported By
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-fr gap-x-10 gap-y-16">

@@ -97,9 +97,17 @@ const Footer: FC = () => {
             </div>
           </div>
         </div>
-        <p className="py-16 text-white/30 text-sm">
+        <div className="mt-16 text-sm text-white/50 space-y-1">
+          <p>
+            <strong>Registered Address:</strong> FF-21, Nilkanth Plaza, Danteshwar, Vadodara, Gujarat – 390004
+          </p>
+          <p className="pt-4 py-16">
+            Copyright &copy; Anself Dynamics Pvt Ltd &bull; All rights reserved
+          </p>
+        </div>
+        {/* <p className="py-16 text-white/30 text-sm">
           Copyright &copy; Anself Dynamics Pvt Ltd &bull; All rights reserved
-        </p>
+        </p> */}
       </div>
     </footer>
   );
