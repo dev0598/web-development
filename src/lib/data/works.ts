@@ -23,7 +23,7 @@ export const worksData: Work[] = [
             "SLIT PAL changes this. Compact and universally compatible, SLIT PAL is a smart camera system that instantly digitizes any slit lamp, transforming routine eye exams into high-quality images and videos, ready to share or analyze in real-time.\n" +
             "With its precision alignment mechanism and magnetic locking design, SLIT PAL ensures perfect optical alignment every time no complex adjustments, no bulky attachments. Just snap it on, plug it in, and start capturing clear, detailed images of the anterior and posterior eye segments.\n" +
             "Designed to work seamlessly with smartphones, laptops, or PCs, SLIT PAL operates in true plug-and-play mode, no drivers, no fuss. From busy clinics to mobile camps, it makes eye documentation effortless, portable, and shareable.\n",
-        image: "/images/works/img_1.png",
+        image: "/images/works/img_22.gif",
         conclusionTitle: "Make Every Slit Lamp Smart",
         conclusion: "With SLIT PAL, eye care professionals can document, store, and share examination findings in seconds, improving diagnosis accuracy and patient trust. Whether in a modern hospital or a rural screening camp, SLIT PAL ensures that every slit lamp tells the full story — clearly, digitally, and instantly."
         ,
