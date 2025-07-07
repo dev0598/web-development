@@ -122,14 +122,14 @@ const ProjectSection = ({
             >
                 {/* Back Button */}
                 <motion.button
-                    className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors duration-200 group"
+                    className="flex items-center gap-2 text-gray-500 hover:text-gray-900 transition-colors duration-200 group"
                     variants={backButtonVariants}
                     whileHover={{ x: -4 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => window.history.back()}
                 >
                     <ArrowLeft size={20} className="group-hover:translate-x-[-2px] transition-transform duration-200" />
-                    <span className="text-sm sm:text-base font-medium">Back</span>
+                    <span className="text-sm sm:text-base font-medium">Back to Works</span>
                 </motion.button>
 
                 {/* Title */}
@@ -144,7 +144,7 @@ const ProjectSection = ({
                         alt="Project Image"
                         width={1920}
                         height={1080}
-                        className="object-cover w-full h-full border border-stone-400 p-4 rounded-lg border-dotted"
+                        className="object-cover w-full h-full border border-stone-400 rounded-xl border-dotted"
                     />
                 </motion.div>
 
