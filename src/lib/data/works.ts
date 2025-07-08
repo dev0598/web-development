@@ -40,7 +40,7 @@ export const worksData: Work[] = [
             "What sets ThermalLook apart is its simplicity and versatility. It doesn’t require large diagnostic centers or complex infrastructure. It can be deployed in hospitals, mobile screening camps, rural clinics, or even community health drives. The device is compact and portable, yet powerful — enabling health workers to screen dozens of people in a short amount of time, with instant, interpretable results.\n"+
             "Beyond cancer, ThermalLook is opening new possibilities in preventive and post-care healthcare. Its applications extend to monitoring inflammation, circulatory disorders, physiotherapy progress, and post-surgical recovery. Researchers and clinicians also benefit from its ability to track thermal changes during drug trials and treatment interventions, giving a new dimension to real-time, data-driven care.\n",
 
-        image: "/images/works/img_3.gif",
+        image: "/images/works/img_32.gif",
         conclusionTitle: "🧠🔍 A New Lens on Preventive Healthcare",
         conclusion: "With ThermalLook, we are building a future where early detection is no longer a privilege, but a standard. By combining the sensitivity of thermal imaging with the intelligence of AI, we’re making healthcare more proactive, accessible, and human-centered.\n",
         conclusionPoints: [
