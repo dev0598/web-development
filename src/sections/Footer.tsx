@@ -16,7 +16,7 @@ const navItems = [
   },
   {
     href: '#testimonials',
-    label: 'Testimonials'
+    label: 'Recognitions'
   },
   {
     href: '#faqs',
