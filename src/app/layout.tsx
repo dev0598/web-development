@@ -1,4 +1,5 @@
 import type {Metadata} from "next";
+import { Analytics } from "@vercel/analytics/next"
 import {Archivo} from 'next/font/google';
 import "./globals.css";
 
@@ -22,7 +23,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={`antialiased text-stone-900 ${archivo.variable} font-sans`}>{children}
-
+        <Analytics />
         </body>
         </html>
     );
