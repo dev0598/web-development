@@ -2,11 +2,12 @@
 
 import { FC, useRef, useState, useCallback } from "react";
 import image1 from "@/assets/images/anself indiaai.jpg";
-import image2 from "@/assets/images/gesia_2.jpg";
-import image3 from "@/assets/images/guj_cm.jpg";
-import image4 from "@/assets/images/techcelerate.jpg";
-import image5 from "@/assets/images/iimb1.jpg";
-import image6 from "@/assets/images/esc_stpi.jpg";
+import image2 from "@/assets/images/gesia_3.jpg";
+import image3 from "@/assets/images/gesia_2.jpg";
+import image4 from "@/assets/images/guj_cm.jpg";
+import image5 from "@/assets/images/techcelerate.jpg";
+import image6 from "@/assets/images/iimb1.jpg";
+import image7 from "@/assets/images/esc_stpi.jpg";
 import { useScroll, motion, useTransform, AnimatePresence } from "motion/react";
 import Testimonial from "@/components/Testimonial";
 
@@ -21,12 +22,21 @@ const testimonials = [
         imagePositionY: 0.2,
     },
     {
+        name: "Pitchathon 2025, GESIA IT Association",
+        company: "Vadodara",
+        role: "November 2025",
+        quote:
+            "Winner at Pitchathon 2025 organised by GESIA IT Association under Digital Management Conclave",
+        image: image2,
+        imagePositionY: 0.2,
+    },
+    {
         name: "DMC, GESIA IT Association",
         company: "Ahmedabad",
         role: "October 2024",
         quote:
             "Winner at Digital Management Conclave, Pitchathon organised by GESIA IT Association",
-        image: image2,
+        image: image3,
         imagePositionY: 0.2,
     },
     {
@@ -35,7 +45,7 @@ const testimonials = [
         role: "May 2022",
         quote:
             "With Chief Minister of Gujarat Shri Bhupendra Patel and Former Education Minister Shri Jitu Vaghani",
-        image: image3,
+        image: image4,
         imagePositionY: 0.2,
     },
     {
@@ -44,7 +54,7 @@ const testimonials = [
         role: "December 2022",
         quote:
             "Winner at a National Level Competition - GUSEC Techcelerate, powered by NSTEDB, DST, Govt. of India",
-        image: image4,
+        image: image5,
         imagePositionY: 0.2,
     },
     {
@@ -53,7 +63,7 @@ const testimonials = [
         role: "May-January 2025",
         quote:
             "Top 30 Healthcare startup at NSRCEL IIMB under their LaunchPad and HealthCare Incubation Programs",
-        image: image5,
+        image: image6,
         imagePositionY: 0.2,
     },
     {
@@ -62,7 +72,7 @@ const testimonials = [
         role: "October 2022",
         quote:
             "National Startup Initiative 2022, Building the next Unicorn",
-        image: image6,
+        image: image7,
         imagePositionY: 0.2,
     },
 ];
